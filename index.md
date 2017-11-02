@@ -1,3 +1,8 @@
+<title>LordBozni</title>
+<meta property="og:title" content="LordBonzi" />
+<meta property="og:description" content="video.movie" />
+<meta property="og:url" content="https://lordbonzi.pro/" />
+
 # Hello
 
 I'm LordBonzi, I'm the Co-Owner of [SuccLimited](https://succ.me.uk/).
