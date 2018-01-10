@@ -6,4 +6,10 @@
 $.getJSON('https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=LordBonzi&api_key=f96f4d2f1ed290cd64d8fb3e816f2f18&format=json', function(data) {
     var track = data.recenttracks.track[0]
     $('#lastfm').html(track.artist["#text"] + " - " + track.name)
-  });
+});
+
+$.getJSON('https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=LordBonzi&api_key=f96f4d2f1ed290cd64d8fb3e816f2f18&format=json', function(data) {
+  var img = data.recenttracks.track[0].image
+  //$('#lastfm').html(track.artist["#text"] + " - " + track.name)
+  $("#albumArt").attr("src", img[2]['#text']);
+});
