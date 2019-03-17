@@ -1,0 +1,18 @@
+<!-- Facebook, Linkedin, Reddit and many others Open Graph -->
+<meta property="og:site_name" content="{{ site.name }}" />
+<meta property="og:title" content="{% if page.title %}{{ page.title }} | {{site.title}}{% else %}{{ site.title }}{% endif %}" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.header }}{% endif %}" />
+<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+<meta property="og:image" content="{% if page.image %}{{ page.image }}{% elsif post.image %}{{ post.image }}{% else %}{{ site.logo }}{% endif %}" />
+<meta property="og:locale" content="{{ site.lang }}" />
+<meta property="og:locale:alternate" content="{{ site.lang_alternate }}" />
+<meta property="og:logo" content="{{ site.logo }}" />
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.header }}{% endif %}" />
+<meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
+<meta name="twitter:image" content="{% if page.image %}{{ page.image }}{% elsif post.image %}{{ post.image }}{% else %}{{ site.logo }}{% endif %}" />
+<meta name="twitter:author" content="{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}" />

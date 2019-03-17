@@ -1,10 +1,13 @@
 baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
 url: "https://lordbonzi.pro" # the base hostname & protocol for your site.
 
+logo: "https://f4.bcbits.com/img/a1818480888_16.jpg"
+
 paginate: 6 #articles per page
 paginate_path: /blog/page:num #makes pagination working
 
 # header text
+author: LordBonzi
 title: LordBonzi
 header: Stuff and Things
 
