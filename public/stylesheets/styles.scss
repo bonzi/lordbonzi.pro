@@ -5,7 +5,8 @@
 body {
   padding: 0px 0 20px 0px;
   margin: 0px;
-  font: 14px/1.5 'Open Sans', sans-serif;
+  /*font: 14px/1.5 'Open Sans', sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
   color: #A3BFC6 ;
   font-weight: normal;
   background: {{ site.data.theme.bg }};
@@ -21,7 +22,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color:#B3D1F0;
   margin: 0 0 10px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: normal;
 }
 
@@ -44,7 +45,7 @@ h2 {
 h3 {
   font-size: 18px;
   line-height: 24px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   color: #b6b6b6;
 }
@@ -92,7 +93,7 @@ th {
   padding: 5px 10px;
   border-bottom: 1px solid #424242;
   color: #b6b6b6;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: normal;
 }
 
@@ -110,7 +111,7 @@ hr {
 
 dt {
   color: #F0E7D5;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: normal;
 }
 
@@ -125,7 +126,7 @@ section {
     padding: 0 0 5px 0;
 
     h1 {
-      font-family: 'Open Sans', sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-weight: 100;
       font-size: 38px;
       text-align: center;
@@ -133,7 +134,7 @@ section {
 
     p {
       color: #B3D1F0;
-      font-family: 'Open Sans', sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-weight: 100;
       font-size: 18px;
       text-align: center;
@@ -141,7 +142,7 @@ section {
 
     .credits {
       font-size: 13px;
-      font-family: 'Open Sans', sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-weight: normal;
       color: #696969;
       margin-top: -25px;
@@ -175,7 +176,7 @@ section {
   font-size: 15px;
   line-height: 24px;
   margin: 0 0 10px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   color: #A3BFC6;
 }
