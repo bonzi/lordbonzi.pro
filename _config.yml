@@ -56,3 +56,5 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+include: [".well-known"]
