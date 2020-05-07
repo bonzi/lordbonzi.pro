@@ -1,0 +1,4 @@
+Contact: mailto:bonzi@lordbonzi.pro
+Contact: https://twitter.com/LordBonzi
+Preferred-Languages: en
+Canonical: https://lordbonzi.pro/.well-known/security.txt
